@@ -81,7 +81,7 @@
  		public function insertPanoramaHere($place_id) {
  			print '<hr/>
 	<p>
-		<iframe width="1200" height="600" allowfullscreen style="border-style:none;" src="http://'.__CA_SITE_HOSTNAME__."/".__CA_URL_ROOT__.'/index.php/Pano360/Pano360/Pannellum?config=http://'.__CA_SITE_HOSTNAME__.'/'.__CA_URL_ROOT__.'/index.php/Pano360/Pano360/Json&id='.$place_id.'&autoLoad=true">
+		<iframe width="1200" height="600" allowfullscreen style="border-style:none;" src="http://'.__CA_SITE_HOSTNAME__.__CA_URL_ROOT__.'/index.php/Pano360/Pano360/Pannellum?config=http://'.__CA_SITE_HOSTNAME__.__CA_URL_ROOT__.'/index.php/Pano360/Pano360/Json&id='.$place_id.'&autoLoad=true">
     	</iframe>
     </p>
 ';
