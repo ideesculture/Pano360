@@ -12,6 +12,7 @@ Pano360 is a plugin for Pawtucket2. This plugin renders a 360° panorama around 
 
 ````php
 	<?php 
+		require_once(__CA_APP_DIR__."/plugins/Pano360/Pano360.php");
 		$place_id = $t_item->get("place_id");
 		Pano360::insertPanoramaHere($place_id);
 	?>
